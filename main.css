@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    color: #004449;
+    font-family: 'Roboto' , sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #004449;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.4s all ease;
+}
+a:hover{ color:greenyellow; }
+nav p{
+    font-size: 12px;
+    color:#D7FFC2;
+}
+.section1{
+    background-color: #004449;
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom p{
+    font-size: 18px;
+}
+.images{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.section1 h1{
+    font-size: 80px;
+    color: #FFAC7F;
+    font-weight: 400;
+}
+.section1 h1:first-line{ color: white; }
+.section1 p{
+    margin: 25px 0;
+    font-size: 32px;
+    color: white;
+}
+.section1 button{
+    border-radius: 30px;
+    border: none;
+    width: 338px;
+    height: 56px;
+    background-color: #0BFF80;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section2{
+    background-image: url(gori.png);
+    width: 100%;
+    height: 1375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+p{ 
+    font-size: 16px;
+}
+h2{ font-size: 24px;     
+    font-weight: 400;
+}
+h1{ font-size: 48px;     
+    font-weight: 400;
+}
+.air{
+    background-color: #FFFEF0;
+    border-radius: 7px;
+    width: 357px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+.air p{
+    text-align: center;
+    margin: 0 auto;
+}
+td{
+    padding: 20px;
+    text-align: center;
+}
+.p1{
+    line-height: 1.5;
+    font-size: 11px;
+}
+.gone{ color: #007A83; margin-left: 10px;}
+.h1_gone{
+    display: flex;
+}
+button{
+    color: white;
+    background-color: #483CFF;
+    border-radius: 800px;
+    width: 140px;
+    height: 100px;
+    border: none;
+    line-height: 1.5;
+}
+.boo{
+    background-color: #D7FFC2;
+    width: 765px;
+    height: 370px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.above{
+   text-align: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+.second{
+    background-color: beige;
+    width: auto;
+    height: 894px;
+}
+.text{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.text h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    color: #004449;
+    background-color: #D7FFC2;
+    border-radius: 13px;
+}
+.text h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    margin-left: 13px;
+    color: #004449;
+}
+
+.Karusel{
+    height: 644px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.Karusel h1{
+    font-family: "Roboto", sans-serif;
+    background-color: #004449;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 500px;
+}
+.Karusel h2{
+    font-family: "Roboto", sans-serif;
+    background-color: #004449;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 500px;
+}
+.Kard1{
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 30px; 
+}
+.Kard1 .price{
+    font-family: "Roboto", sans-serif;
+    border-radius: 200px;
+    font-size: 40px;
+    color: #004449;
+    background-color: #FDD6BA;
+    display: flex;
+    justify-content: center;
+}
+.Kard1 .info{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Kard1 .route{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Kard2{
+    margin-right: 30px; 
+}
+.Kard2 .price{
+    font-family: "Roboto", sans-serif;
+    border-radius: 200px;
+    font-size: 40px;
+    color: #004449;
+    background-color: #FDD6BA;
+    display: flex;
+    justify-content: center;
+}
+.Kard2 .info{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Kard2 .route{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.Kard3{
+    margin-right: 30px; 
+}
+.Kard3 .price{
+    font-family: "Roboto", sans-serif;
+    border-radius: 200px;
+    font-size: 40px;
+    color: #004449;
+    background-color: #FDD6BA;
+    display: flex;
+    justify-content: center;
+}
+.Kard3 .info{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Kard3 .route{
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Kard4{
+    margin-right: 30px; 
+}
+.Kard4 .price{
+    font-family: "Roboto", sans-serif;
+    border-radius: 200px;
+    font-size: 40px;
+    color: #004449;
+    background-color: #FDD6BA;
+    display: flex;
+    justify-content: center;
+}
+.Kard4 .info{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Kard4 .route{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Kard5{
+    margin-right: 30px; 
+}
+.Kard5 .price{
+    font-family: "Roboto", sans-serif;
+    border-radius: 200px;
+    font-size: 40px;
+    color: #004449;
+    background-color: #FDD6BA;
+    display: flex;
+    justify-content: center;
+}
+.Kard5 .info{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Kard5 .route{
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    color: #004449;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.tri{
+    background-image: url(vodichka.png);
+    background-size: 100% 100%;
+    width: 1920px;
+    height: 1076px;
+    background-repeat: no-repeat;
+}
+.textis{
+    font-family: "Roboto", sans-serif;
+    color: #004449;
+    font-size: 64px;
+    height: 250px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.textys{
+    font-size: 64px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+} 
+.textys p2{
+    font-family: "Roboto", sans-serif;
+    color: #004449;
+    background-color: #D7FFC2;
+    border-radius: 10px;
+}
+.textys p3{
+    font-family: "Roboto", sans-serif;
+    color: #004449;
+    margin-left: 30px;
+}
+.fon1{
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.fon1 img{
+    width: 450px;
+    height: 330px;
+}
+    
+.fon1 p6{
+    font-family: "Roboto", sans-serif;
+    color: #004449;
+    position: absolute;
+    display: flex;
+    margin-left: 50px;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    width: 1400px;
+    height: 300px;
+}
+.fon1 p7{
+    font-family: "Roboto", sans-serif;
+    color: #004449;
+    margin-top: 20px;
+    font-size: 19px;
+    position: absolute;
+}
+.fon1 p8{
+    font-family: "Roboto", sans-serif;
+    color: #004449;
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 1140px;
+    position: absolute;
+}
+.Knopki{
+    font-family: "Roboto", sans-serif;
+    width: auto;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.Knopki button{
+    background-color: #004449;
+    color: white;
+    border-radius: 200px;
+    border: none;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.Four{
+    background-color: #FFFEF0;
+    width: 1920px;
+    height: 664px;
+}
+.POS{
+    position: relative;
+    width: 768px;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+kartinka222{
+    height: 327px;
+    width: 384px;
+}
+.TOWER{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 1920px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+.TOWER p1{
+    font-size: 55px;
+    color: #004449;
+}
+.TOWER p2{
+    color: #004449;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.fon3{
+    position: absolute;
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    width: 1920px;
+    height: 550px;
+}
+.fon3 button{
+    font-family: "Roboto", sans-serif;
+    color: #FFFEF0;
+    background-color: #483CFF;
+    font-size: 16px;
+    width: 150px;
+    height: 90px;
+    margin-bottom: 40px;
+    position: absolute;
+    border: none;
+    border-radius: 200px;
+}
+footer{
+    width: 100%;
+    height: 575px;
+    background-color: #004449;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.ball{
+    padding: 50px 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    line-height: 2.5;
+    color: #FFFEF0;
+}
+.ye{
+    margin-top: 50px;
+}
+.sosison{
+    background-color: #FFFEF0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #004449;
+}
